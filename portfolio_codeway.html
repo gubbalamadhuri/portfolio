@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio -- Madhuri</title>
+  <style>
+    body {
+      background-image: url("https://cdn.glitch.global/5638ec9f-5474-41f7-b4be-dc248eb744d7/background.jpg?v=1707749044374");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #333;
+      font-family: "EB Garamond", serif;
+    }
+
+    header,
+    footer {
+      text-align: center;
+      margin: 20px 0;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #E0F2F1;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #F0FFFF;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 0;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    h2,
+    h3,
+    h4 {
+      font-family: "Merriweather", serif;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+        color: #2196F3;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+
+    a:hover {
+        color: #0D6EFD;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    p,
+    li {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    footer {
+      font-size: 14px;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Animations */
+
+    .section:hover {
+      animation: zoom-in 0.3s ease-in-out;
+    }
+
+    @keyframes zoom-in {
+      from {
+        transform: scale(0.95);
+      }
+      to {
+        transform: scale(1);
+      }
+    } /* Added margin for better separation from the content */
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gubbala Sai Prabha Madhuri</h1>
+    <h4>Web Developer</h4>
+  </header>
+  <section id="about" class="section">
+    <u><h3>About Me</h3></u>
+    <p>
+      I am an enthusiastic and hardworking student pursuing a Bachelor's degree
+      in Technology with a strong academic background and a passion for
+      Full-stack Web Development and Machine Learning. Currently persevering
+      3rd B.Tech in Vishnu Institute of Technology with an 8.49 CGPA.
+    </p>
+  </section>
+  <section id="skills" class="section">
+    <u><h3>Skills</h3></u>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Node.js</li>
+      <li>C Language</li>
+      <li>Java</li>
+      <li>Python</li>
+    </ul>
+  </section>
+  <section id="projects" class="section">
+    <u><h3>Projects</h3></u>
+    <h4>---- Mental Health Prediction</h4>
+    <div class="project">
+      <a href="#">
+        <img src="https://cdn.glitch.global/abf882c4-921d-497f-a6ea-3a97549332c4/WhatsApp%20Image%202024-02-16%20at%2011.54.13%20AM.jpeg?v=1708075130795" alt="Mental Health" />
+      </a>
+      <p>
+        "It is a website that empowers proactive mental health care by employing advanced
+        machine learning predictions in an interactive and user-friendly platform."
+    </p>
+    </div>
+    <h4>---- Country's Details</h4>
+    <div class="project">
+      <a href="#">
+3
+        <img src="https://cdn.glitch.global/abf882c4-921d-497f-a6ea-3a97549332c4/WhatsApp%20Image%202024-02-16%20at%203.00.11%20PM.jpeg?v=1708076392237" alt="Helping Hands" />
+      </a>
+      <p>
+        It is a website that gives country's information like capital, continent, population, currency, languages.
+      </p>
+    </div>
+    <h4>---- Online Education</h4>
+    <div class="project">
+      <a href="#">
+        <img src="https://cdn.glitch.global/abf882c4-921d-497f-a6ea-3a97549332c4/edu.png?v=1708078742686" alt="Weather Forecast" />
+      </a>
+      <p>
+       It is a website that contains diverse online courses, fostering global community, supporting career advancement.
+      </p>
+    </div>
+  </section>
+  <section id="resume" class="section">
+    <u><h3>Resume</h3></u>
+    <p>
+      Download my resume <a href="SAI_PRABHA MADHURI GUBBALA_Resume_23-08-2023-20-37-00 (1).pdf" download>here</a>.
+    </p>
+  </section>
+  <section id="contact" class="section">
+    <u><h3>Contact Me</h3></u>
+    <ul>
+      <li>Phone: 7013285928</li>
+      <li> <a href="https://www.linkedin.com/in/gubbala-sai-prabha-madhuri-77569b247">LinkedIn: GubbalaSaiPrabhaMadhuri</a></li>
+      <li> GitHub: <a href="https://github.com/gubbalamadhuri">GubbalaSaiPrabhaMadhuri</a></li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2024 Gubbala Madhuri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
